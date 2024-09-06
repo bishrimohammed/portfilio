@@ -1,59 +1,89 @@
 import Image from "next/image";
 import React from "react";
+import { BsFillEyeFill } from "react-icons/bs";
+import { GoGoal } from "react-icons/go";
 
 export const MySkill = () => {
   return (
-    <div className="relative h-full">
-      <div className="relative h-full ">
-        <div className="flex items-center justify-center h-[100%] w-full  ">
-          <div className="flex justify-between md:mt-10">
-            <div className="w-[55%] space-y-5">
-              <div className="p-1 h-[42px]">
-                <span className="border-[0.5px] border-[#0DB760] rounded-2xl py-[2px] text-[#0DB760] font-medium">
-                  My Skill
-                </span>
-              </div>
-              <h1 className=" leading-[50px] text-[40px] font-semibold">
-                I am{" "}
-                <span className="text-[#0DB760]">
-                  Creative <br /> Software
-                </span>{" "}
-                Developer
-              </h1>
-              <p className="text-[#323433] text-">
-                I’m Bishri.
-                {/* a creative Product Designer. I’ve been helping
-            businesses to solve their problems with my design for 2 years. */}
-                I am a passionate and adaptable individual, eager to learn and
-                achieve. With a positive outlook and a growth mindset, I am
-                poised to make a significant impact and accomplish great things.
-              </p>
+    <div className="">
+      <div className="flex justify-between pb-10  pt-0">
+        <div className="flex gap-1 flex-col font-poppins ">
+          <h2 className="text-[#0DB760] text-4xl font-semibold">80+</h2>
+          <p className="text-black font-normal">Satisfied clients</p>
+        </div>
+        <div className="w-[0.5px] bg-[#0DB760]"></div>
+        <div className="flex gap-1 flex-col font-poppins ">
+          <h2 className="text-[#0DB760] text-4xl font-semibold">80+</h2>
+          <p className="text-black font-normal">Satisfied clients</p>
+        </div>
+        <div className="w-[0.5px] bg-[#0DB760]"></div>
+
+        <div className="flex gap-1 flex-col font-poppins ">
+          <h2 className="text-[#0DB760] text-4xl font-semibold">80+</h2>
+          <p className="text-black ">Satisfied clients</p>
+        </div>
+      </div>
+      <div className="flex md:flex-row flex-col  justify-between items-center pt-2 mb-5 space-y-10">
+        <div className="md:w-[50%] space-y-5">
+          <div className="text-center w-[70px] h-[24px] rounded-full border-[0.2px] border-[#0DB760]">
+            <span className="text-[#0DB760] font-medium">My Skill</span>
+          </div>
+
+          <h1 className=" text-[25px] font-semibold">
+            Why Hire Me For Your <br />
+            Next
+            <span className="text-[#0DB760]"> Project?</span>{" "}
+          </h1>
+          <p className="text-[#323433] text-">
+            I’m specialist in UI/UX Designe. My passion is designing & solving
+            problems through user experience and research.
+          </p>
+          <div className="flex items-center gap-3">
+            <button className="px-[15px]  py-[5px]  bg-[#0DB760] text-center font-medium rounded-[12px]">
+              <span className="  text-sm text-white">Hire Me</span>
+            </button>
+          </div>
+        </div>
+        <div className="md:w-[47%] text-black flex justify-end">
+          <div className="md:w-[80%]  flex gap-3 flex-col md: ">
+            <div className=" ">
               <div className="flex items-center gap-3">
-                <button className="px-[15px]  py-[6px]  bg-[#0DB760] text-center font-medium rounded-[12px]">
-                  <span className="  text-sm text-white">Contact Me</span>
-                </button>
-                {/* <button className="  w-[110px]  font-medium ">
-            <span className="leading-[35px] text-black"> */}
-                <button className="px-[15px]  py-[6px]  font-medium rounded-[12px]">
-                  <span className="  text-sm text-black">View Portfolio</span>
-                </button>
+                <GoGoal color="0DB760" size={30} />
+                {/* <img src="/attention-to-detail.png" width={30} /> */}
+                <h2 className="text-black md:text-lg text-2xl font-semibold my-[2px] font-poppins">
+                  Deadline Oriented
+                </h2>
               </div>
+              <p className="md:text-xs text-base font-inter mt-1 ps-1">
+                Focusing on timely delivery while maintaining high-quality
+                standards and innovative design solutions.
+              </p>
             </div>
-            <div className="w-[40%]  relative">
-              <div className="border-2 border-black z-10 w-[70%] h-[75%] absolute bottom-0 right-6"></div>
-              <div className="bg-[#0DB760] w-[70%] h-[75%] absolute bottom-10 right-0">
-                <div className="w-full h-full overflow-hidden ">
-                  <div className="absolute bottom-0 z-20">
-                    <Image
-                      src="/image206.png"
-                      width={1000}
-                      height={1000}
-                      className="w-[full] h-auto"
-                      alt=""
-                    />
-                  </div>
-                </div>
+            <div className="">
+              <div className="flex items-center gap-3">
+                <BsFillEyeFill color="0DB760" size={25} />
+                {/* <img src="/attention-to-detail.png" width={30} /> */}
+                <h2 className="text-black md:text-lg text-2xl font-semibold my-[2px] font-poppins ">
+                  Attention to Detail
+                </h2>
               </div>
+              <p className="md:text-xs text-base font-inter mt-1 ps-1">
+                Focusing on timely delivery while maintaining high-quality
+                standards and innovative design solutions.
+              </p>
+            </div>
+            <div className="">
+              {/* <GoGoal color="0DB760" size={25} /> */}
+              <div className="flex items-center gap-3">
+                <img src="/creative-thinking.png" width={30} />
+                <h2 className="text-black md:text-lg text-2xl font-semibold my-[2px] font-poppins">
+                  Creative Thinking
+                </h2>
+              </div>
+              <p className="md:text-xs text-base font-inter mt-1 ps-1">
+                Approaching problems with originality and innovation to generate
+                unique solutions and ideas.
+              </p>
             </div>
           </div>
         </div>
