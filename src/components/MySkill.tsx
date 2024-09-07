@@ -8,18 +8,18 @@ export const MySkill = () => {
     <div className="">
       <div className="flex justify-between pb-10  pt-0">
         <div className="flex gap-1 flex-col font-poppins ">
-          <h2 className="text-[#0DB760] text-4xl font-semibold">80+</h2>
+          <h2 className="text-[#0DB760] text-4xl font-semibold">10+</h2>
           <p className="text-black font-normal">Satisfied clients</p>
         </div>
         <div className="w-[0.5px] bg-[#0DB760]"></div>
         <div className="flex gap-1 flex-col font-poppins ">
-          <h2 className="text-[#0DB760] text-4xl font-semibold">80+</h2>
+          <h2 className="text-[#0DB760] text-4xl font-semibold">150+</h2>
           <p className="text-black font-normal">Satisfied clients</p>
         </div>
         <div className="w-[0.5px] bg-[#0DB760]"></div>
 
         <div className="flex gap-1 flex-col font-poppins ">
-          <h2 className="text-[#0DB760] text-4xl font-semibold">80+</h2>
+          <h2 className="text-[#0DB760] text-4xl font-semibold">30+</h2>
           <p className="text-black ">Satisfied clients</p>
         </div>
       </div>
@@ -34,7 +34,7 @@ export const MySkill = () => {
             Next
             <span className="text-[#0DB760]"> Project?</span>{" "}
           </h1>
-          <p className="text-[#323433] text-">
+          <p className="text-[#323433] ">
             I’m specialist in UI/UX Designe. My passion is designing & solving
             problems through user experience and research.
           </p>
@@ -54,7 +54,7 @@ export const MySkill = () => {
                   Deadline Oriented
                 </h2>
               </div>
-              <p className="md:text-xs text-base font-inter mt-1 ps-1">
+              <p className="md:text-xs text-base font-inter mt-1 ps-1  text-[#323433]">
                 Focusing on timely delivery while maintaining high-quality
                 standards and innovative design solutions.
               </p>
@@ -67,7 +67,7 @@ export const MySkill = () => {
                   Attention to Detail
                 </h2>
               </div>
-              <p className="md:text-xs text-base font-inter mt-1 ps-1">
+              <p className="md:text-xs text-base font-inter mt-1 ps-1  text-[#323433]">
                 Focusing on timely delivery while maintaining high-quality
                 standards and innovative design solutions.
               </p>
@@ -80,7 +80,7 @@ export const MySkill = () => {
                   Creative Thinking
                 </h2>
               </div>
-              <p className="md:text-xs text-base font-inter mt-1 ps-1">
+              <p className="md:text-xs text-base font-inter mt-1 ps-1  text-[#323433]">
                 Approaching problems with originality and innovation to generate
                 unique solutions and ideas.
               </p>

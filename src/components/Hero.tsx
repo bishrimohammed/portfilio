@@ -53,8 +53,18 @@ const Hero = () => {
                 </button>
                 {/* <button className="  w-[110px]  font-medium ">
                 <span className="leading-[35px] text-black"> */}
-                <button className="px-[15px]  py-[6px]  font-medium rounded-[12px]">
+                <button className="px-[15px]  py-[6px]  font-medium rounded-[12px] flex items-center gap-2">
                   <span className="  text-sm text-black">View Portfolio</span>
+                  <span>
+                    {" "}
+                    <Image
+                      src="/arrow.png"
+                      alt=""
+                      width={1000}
+                      height={1000}
+                      className="w-full h-auto"
+                    />{" "}
+                  </span>
                 </button>
               </div>
             </div>
