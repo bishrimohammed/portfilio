@@ -1,25 +1,29 @@
-import Image from "next/image";
-import React from "react";
 import { BsFillEyeFill } from "react-icons/bs";
 import { GoGoal } from "react-icons/go";
 
 export const MySkill = () => {
   return (
-    <div className="">
-      <div className="flex justify-between pb-10  pt-0">
-        <div className="flex gap-1 flex-col font-poppins ">
-          <h2 className="text-[#0DB760] text-4xl font-semibold">10+</h2>
+    <section className="lg:mb-16 mb-6">
+      <div className="flex justify-between flex-wrap pb-10  pt-0">
+        <div className="flex md:gap-1 gap-3 md:flex-col items-center font-poppins ">
+          <h2 className="text-[#0DB760] md:text-4xl text-2xl font-semibold">
+            10+
+          </h2>
           <p className="text-black font-normal">Satisfied clients</p>
         </div>
-        <div className="w-[0.5px] bg-[#0DB760]"></div>
-        <div className="flex gap-1 flex-col font-poppins ">
-          <h2 className="text-[#0DB760] text-4xl font-semibold">150+</h2>
+        <div className="w-[0.5px] md:block hidden bg-[#0DB760]"></div>
+        <div className="flex gap-1 md:flex-col items-center  font-poppins ">
+          <h2 className="text-[#0DB760] md:text-4xl text-2xl font-semibold">
+            150+
+          </h2>
           <p className="text-black font-normal">Satisfied clients</p>
         </div>
         <div className="w-[0.5px] bg-[#0DB760]"></div>
 
         <div className="flex gap-1 flex-col font-poppins ">
-          <h2 className="text-[#0DB760] text-4xl font-semibold">30+</h2>
+          <h2 className="text-[#0DB760] md:text-4xl text-2xl font-semibold">
+            30+
+          </h2>
           <p className="text-black ">Satisfied clients</p>
         </div>
       </div>
@@ -88,6 +92,6 @@ export const MySkill = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
