@@ -54,7 +54,7 @@ export const MySkill = () => {
               <div className="flex items-center gap-3">
                 <GoGoal color="0DB760" size={30} />
                 {/* <img src="/attention-to-detail.png" width={30} /> */}
-                <h2 className="text-black md:text-lg text-2xl font-semibold my-[2px] font-poppins">
+                <h2 className="text-black md:text-lg text-md font-semibold my-[2px] font-poppins">
                   Deadline Oriented
                 </h2>
               </div>
@@ -67,7 +67,7 @@ export const MySkill = () => {
               <div className="flex items-center gap-3">
                 <BsFillEyeFill color="0DB760" size={25} />
                 {/* <img src="/attention-to-detail.png" width={30} /> */}
-                <h2 className="text-black md:text-lg text-2xl font-semibold my-[2px] font-poppins ">
+                <h2 className="text-black md:text-lg text-md font-semibold my-[2px] font-poppins ">
                   Attention to Detail
                 </h2>
               </div>
@@ -80,7 +80,7 @@ export const MySkill = () => {
               {/* <GoGoal color="0DB760" size={25} /> */}
               <div className="flex items-center gap-3">
                 <img src="/creative-thinking.png" width={30} />
-                <h2 className="text-black md:text-lg text-2xl font-semibold my-[2px] font-poppins">
+                <h2 className="text-black md:text-lg text-md font-semibold my-[2px] font-poppins">
                   Creative Thinking
                 </h2>
               </div>

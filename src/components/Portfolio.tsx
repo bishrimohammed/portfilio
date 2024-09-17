@@ -59,7 +59,7 @@ const Portfolio = () => {
             <Image
               priority
               //   src="/dashbord.png"
-              src="/DrworkHour.png"
+              src="/charity.png"
               //   quality={100}
               alt=""
               width={1000}
