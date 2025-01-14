@@ -5,8 +5,8 @@ import { FaInstagram, FaLinkedin, FaSquareFacebook } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className="relative ">
-      <div className="relative h-full">
+    <div className="relative">
+      <div className="relative h-full container mx-auto">
         <header className=" w-full z-30 py-5">
           <div className="flex items-center  justify-between">
             <div className="logo">
